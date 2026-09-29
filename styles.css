@@ -10,6 +10,9 @@
 
 * { box-sizing: border-box; }
 
+/* no zoom on rapid taps */
+button { touch-action: manipulation; }
+
 html, body {
   margin: 0;
   height: 100%;
